@@ -1,0 +1,778 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="智能硬件,智能硬件产业,智能硬件产品,中国智能硬件产业" />
+<meta name="description" content="针对智能硬件产业面临的种种难题，新年伊始，OFweek将开启“OFweek 2016中国智能硬件产业大会”巡回活动 ，并陆续在中国智能硬件产业最热门城市上海、深圳，为您解读智能硬件产业最新的进展，分享最前沿的技术干货及解决方案 ，共同探讨中国智能硬件的成功之道！" />
+<title>OFweek2016中国智能硬件产业大会</title>
+<link href="http://www.ofweek.com/css/ofw-global-steven.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/main.css?v=20160127"/>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/main.js?v=20160127"></script>
+</head>
+
+<body>
+
+<!-- topbar -->
+<div id="g-topbar" class="g-topbar">
+  <div class="g-wrap">
+    <div class="g-topbar-nav">
+      <a href="http://www.ofweek.com" target="_blank">OFweek首页</a> <i>|</i>
+      <a href="http://en.ofweek.com/news" target="_blank">国际站</a> <i>|</i>
+      <a href="http://lights.ofweek.com/" target="_blank">半导体照明</a> <i>|</i>
+      <a href="http://solar.ofweek.com/" target="_blank">太阳能光伏</a> <i>|</i>
+      <a href="http://ee.ofweek.com/" target="_blank">电子工程</a> <i>|</i>
+      <a href="http://laser.ofweek.com/" target="_blank">激光</a> <i>|</i>
+      <a href="http://fiber.ofweek.com/" target="_blank">光通讯</a> <i>|</i>
+      <a href="http://gongkong.ofweek.com/" target="_blank">工控</a> <i>|</i>
+      <a href="http://display.ofweek.com/" target="_blank">显示</a>
+      <span class="g-topbar-dropmenu">
+        <a class="g-topbar-trigger"></a>
+        <div class="g-topbar-menu">
+          <a href="http://smartgrids.ofweek.com/" target="_blank">智能电网</a> <i>|</i>
+          <a href="http://tele.ofweek.com/" target="_blank">通信</a> <i>|</i>
+          <a href="http://ecep.ofweek.com/" target="_blank">节能环保</a> <i>|</i>
+          <a href="http://windpower.ofweek.com/" target="_blank">风电</a> <i>|</i>
+          <a href="http://iot.ofweek.com/" target="_blank">物联网</a> <i>|</i>
+          <a href="http://3dprint.ofweek.com/" target="_blank">3D打印</a> <i>|</i>
+		  <a href="http://smarthome.ofweek.com/" target="_blank">智能家居</a><i>|</i>
+		   <a href="http://auto.ofweek.com/" target="_blank">汽车</a><i>|</i> 
+		  <a href="http://nev.ofweek.com/" target="_blank">新能源汽车</a><br>        
+          <a href="http://instrument.ofweek.com/" target="_blank">仪器仪表</a> <i>|</i>
+          <a href="http://dianyuan.ofweek.com/" target="_blank">电源</a> <i>|</i>
+          <a href="http://lighting.ofweek.com/" target="_blank">照明</a> <i>|</i>
+          <a href="http://sensor.ofweek.com/" target="_blank">传感器</a> <i>|</i>
+          <a href="http://power.ofweek.com/" target="_blank">电力</a> <i>|</i>
+          <a href="http://libattery.ofweek.com/" target="_blank">锂电</a> <i>|</i>
+          <a href="http://robot.ofweek.com/" target="_blank">机器人</a><i>|</i>
+		  <a href="http://wearable.ofweek.com/" target="_blank">可穿戴设备</a>|
+		  <a href="http://medical.ofweek.com/" target="_blank">医疗</a>|
+		  <a href="http://security.ofweek.com/" target="_blank">安防</a>
+        </div>
+      </span>
+    </div>
+    <ul class="g-topbar-loginbar">
+	  
+      <li id="88000" style="display: none" class="g-topbar-weibo"><a href="http://weibo.com/ofweeksensor" target="_blank">官方微博</a></li>
+      <li id="g-topbar-logininfo" class="g-topbar-logininfo">
+      	<span class="redbg"><a href="javascript:window.location='http://www.ofweek.com/user/login.do?returnurl='+location.href;" rel="nofollow" target="_self">登录</a></span><i>|</i>
+      	<a href="http://www.ofweek.com/user/registerUser.do" rel="nofollow">注册</a> <i>|</i>
+        <span class="email"><a href="javascript:window.location='http://www.ofweek.com/user/subscribe.do?returnurl='+location.href;" target="_self" rel="nofollow">资讯订阅</a></span> 
+        <!-- 
+        <i>|</i>
+        <a href="http://www.ofweek.com/form/view.php?id=122" target="_blank" rel="nofollow">问题反馈</a>
+         -->
+      </li>
+      <li id="g-topbar-userinfo" class="g-topbar-userinfo" style="display:none;">
+        <a href="http://bbs.ofweek.com/home-space-do-home.html" rel="nofollow">个人中心</a><i>|</i>
+        <a href="http://www.ofweek.com/user/userLogout.do" rel="nofollow" target="_self">退出</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+	function loginurl(){
+		var str = "http://www.ofweek.com/user/login.do?returnurl="+location.href;
+		window.location.href = str;
+	}
+	function subscribe(){
+		var str = "http://www.ofweek.com/user/subscribe.do?returnurl="+location.href;
+		window.location.href = str;
+	}
+	var locationURL = location.href;
+	var index = locationURL.indexOf(".ofweek.com");
+	var locat = locationURL.substring(7, index);
+	if("3dprint" == locat){
+		document.getElementById('11500').style.display = 'block';
+	}else if("dianyuan" == locat){
+		document.getElementById('898500').style.display = 'block';
+	}else if("display" == locat){
+		document.getElementById('692028').style.display = 'block';
+	}else if("ecep" == locat){
+		document.getElementById('987000').style.display = 'block';
+	}else if("fiber" == locat){
+		document.getElementById('2000').style.display = 'block';
+	}else if("gongkong" == locat){
+		document.getElementById('879100').style.display = 'block';
+	}else if("instrument" == locat){
+		document.getElementById('897251').style.display = 'block';
+	}else if("iot" == locat){
+		document.getElementById('11000').style.display = 'block';
+	}else if("laser" == locat){
+		document.getElementById('4000').style.display = 'block';
+	}else if("libattery" == locat){
+		document.getElementById('16000').style.display = 'block';
+	}else if("lights" == locat){
+		document.getElementById('692007').style.display = 'block';
+	}else if("robot" == locat){
+		document.getElementById('898800').style.display = 'block';
+	}else if("smartgrids" == locat){
+		document.getElementById('879083').style.display = 'block';
+	}else if("solar" == locat){
+		document.getElementById('6000').style.display = 'block';
+	}else if("tele" == locat){
+		document.getElementById('898000').style.display = 'block';
+	} else if("medical" == locat){
+		document.getElementById('103100').style.display = 'block';
+	 } else if("sensor" == locat){
+		document.getElementById('88000').style.display = 'block';
+	}
+<!--//<![CDATA[
+  (function() {
+    var cookie = getCookie('www_ofweekmember');
+    if (cookie != null) {
+      document.getElementById('g-topbar-logininfo').style.display = 'none';
+      var str = cookie.split('NPofweek');
+      var userid = str[0];
+      document.getElementById('g-topbar-userinfo').style.display = '';
+      var isemail = str[1];
+      if (isemail == 1) {
+        document.getElementById('g-topbar-userinfo').innerHTML += ' 欢迎您：' + userid;
+      } else {
+        document.getElementById('g-topbar-userinfo').innerHTML += ' 欢迎您：' + userid;
+      }
+    }
+  })();
+//]]>-->
+</script>
+<!-- /topbar -->
+
+<!-- banner start -->
+<div id="banner" class="banner">
+  <div class="banner_con">
+    <ul class="banner_list">
+      <li class="banner01"></li>
+      <li class="banner02"></li>
+      <li class="banner03"></li>
+    </ul>
+    <ul class="dot_list">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="banner_nav">
+      <ul class="nav_con white">
+        <li class="on"><a href="javascript:">4月26日上海站</a></li>
+        <li class="last"><a href="javascript:" target="_blank">8月31日深圳站</a></li>
+       
+      </ul>
+    </div>
+		
+		<div class="banner_addr">上海站</div>
+		<div class="join"><a href="zhuce.html" target="_blank">立即报名参加大会</a></div>
+		
+  </div>
+
+		
+
+</div>
+<!-- banner end -->
+
+
+<!-- nav start-->
+<div id="nav" class="nav">
+  <div class="w1000">
+    <ul class="fl white">
+      <li class="on"><a href="index.html">首页</a></li>
+      <li><a href="index.html#wrapper">会议背景</a></li>
+      <!--<li><a href="#jiabin">会议嘉宾</a></li>-->
+      <li><a href="index.html#richeng">会议日程</a></li>
+      <li><a href="zanzhu.html#wrapper">会议赞助</a></li>
+			<li><a href="huigu.html#wrapper">往届回顾</a></li>
+    </ul>
+    <div class="fr btn_bm"><a href="zhuce.html" target="_blank"><img src="images/zhuce_03.png"/></a></div>
+  </div>
+</div>
+<!-- nav end-->
+
+
+<!-- main start -->
+<div id="wrapper" class="main">
+    <div class="part1">
+      <div id="beijing" class="w1000">
+        <div class="active_info fl">
+          <h3 class="w_title"><img src="images/one-title_03.png"/>会议背景</h3>
+          <div class="mt20">
+            <p>近年来智能硬件产业发展迅速，且市场前景多方看好，据权威分析指，智能硬件真正的爆发期将在2020年左右。而之所以将产业巅峰推后在5年之后，很大的原因在于目前智能硬件仍存在技术和产业上的不成熟。最具代表性的可穿戴产品方面，即使初创企业与传统厂商前赴后继试图挖掘其巨大的潜在价值，但由于体验舒适度低、产品差异化程度低等原因，至今为止仍没有哪款代表产品可以指引产品与技术的发展方向，因此消费者始终未对可穿戴市场真正动心；而应用于家居的智能硬件产品本应趁着家居智能化的大潮突飞猛进，却由于抓不住用户痛点、统一标准遥遥无期等原因始终和智能家居的概念一样浮在半空、无法真正落地。</p>
+          </div>
+          <p class="pt20">针对智能硬件产业面临的种种难题，新年伊始，OFweek将开启“OFweek 2016中国智能硬件产业大会”巡回活动，并陆续在中国智能硬件产业最热门城市上海、深圳，为您解读智能硬件产业最新的进展，分享最前沿的技术干货及解决方案，共同探讨中国智能硬件的成功之道！第一站将于2016年4月26日在上海举办，会议将以“智能硬件产业市场发展趋势”及“智能硬件产业创新技术及应用”两大主题深入剖析智能硬件产业关联厂商目前最关注的问题。拟邀活跃在智能硬件设计、开发、生产与分销各领域的资深专家、国内外知名学者、行业协会专家与科研机构研究员/分析师、以及相关企业精英等共同为业界分享成果并指点迷津，并就智能硬件最关注的可穿戴及家居应用领域展开深度交流与讨论，以期为智能硬件从业者提供在技术、供应链及市场等方面最有价值的参考信息及预测，进一步促进智能硬件的产业化走向成熟。　欢迎各厂商参加！</p>
+        </div>
+
+        <div class="pic_list fr">
+          <ul>
+            <li>
+              <img src="images/pic01_03.jpg" width="380" height="324" />
+              <div class="gray_bg white"><a href="javasrcipt:" target="_blank">精彩回顾8月”深圳站“</a></div>
+            </li>
+            <li>
+               <img src="images/pic-two_03.jpg" width="380" height="324" />
+              <div class="gray_bg white"><a href="http://www.ofweek.com/topic/2015/robot/SHrobotsubmit/" target="_blank">精彩回顾8月”深圳站“</a></div>
+            </li>
+            <li>
+               <img src="images/pic-three_03.jpg" width="380" height="324" />
+              <div class="gray_bg white"><a href="http://www.ofweek.com/topic/2015/robot/SHrobotsubmit/" target="_blank">精彩回顾8月”深圳站“</a></div>
+            </li>
+            <li>
+               <img src="images/pic-four_03.jpg" width="380" height="324" />
+              <div class="gray_bg white"><a href="http://www.ofweek.com/topic/2015/robot/SHrobotsubmit/" target="_blank">精彩回顾8月”深圳站“</a></div>
+            </li>
+            <li>
+               <img src="images/pic-five_03.jpg" width="380" height="324" />
+              <div class="gray_bg white"><a href="http://www.ofweek.com/topic/2015/robot/SHrobotsubmit/" target="_blank">精彩回顾8月”深圳站“</a></div>
+            </li>
+          </ul>
+          <ul class="dot">
+            <span class="on">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--<div id="jiabin" class="jiabin">
+      <div class="bg_yy">
+        <div class="w1000">
+          <h3 class="w_title"><img src="images/ico6.gif" />会议嘉宾</h3>
+         <div class="jiabin_list">
+            <div class="model">
+              <h6><img src="images/p1.png"></h6>
+              <h3>潘伟</h3>
+              <p class="f14">OFweek行业研究中心<br />高级分析师</p>
+            </div>
+						 <div class="model">
+              <h6><img src="images/p2.png"></h6>
+              <h3>陈定方</h3>
+              <p class="f14">武汉理工大学<br />智能制造与控制研究所所长/教授
+</p>
+            </div>
+
+            <div class="model">
+              <h6><img src="images/p3.png" /></h6>
+              <h3>吴功平</h3>
+              <p class="f14">武汉大学<br /> 机器人与复杂机电系统研究所所长/教授
+              </p>
+            </div>
+             
+
+            <div class="model">
+              <h6><img src="images/p4.png" /></h6>
+              <h3>吴蔚</h3>
+              <p class="f14">南京埃斯顿机器人工程有限公司<br /> 副总经理
+              </p>
+            </div>
+            <div class="model">
+              <h6><img src="images/p5.png" /></h6>
+              <h3>聂明凯</h3>
+              <p class="f14"> OFweek投融资<br /> 投资经理
+              </p>
+            </div>
+            <div class="model">
+              <h6><img src="images/p6.png" /></h6>
+              <h3>辛志</h3>
+              <p class="f14"> 库卡机器人(上海)有限公司<br /> 区域销售总监
+              </p>
+            </div>
+            <div class="model">
+              <h6><img src="images/p7.png" /></h6>
+              <h3>陈培正</h3>
+              <p class="f14"> 深圳市汇川技术股份有限公司<br /> 副总经理
+              </p>
+            </div>
+            <div class="model">
+              <h6><img src="images/p8.png" /></h6>
+              <h3>田浩</h3>
+              <p class="f14"> 上海ABB工程有限公司<br /> 华中区销售经理
+              </p>
+            </div>
+            <div class="model">
+              <h6><img src="images/p9.png" /></h6>
+              <h3>李悦韡</h3>
+              <p class="f14"> 深圳众为兴技术股份有限公司<br /> 市场总监
+              </p>
+            </div>
+
+            <div class="model">
+              <h6><img src="images/p_pic.png" /></h6>
+              <p class="f14">更多嘉宾更新中</p>
+            </div>
+         </div>
+
+        </div>
+      </div>
+    </div>-->
+
+
+    <div class="part1 white_bg">
+      <div class="w1000 robot_bg_wrap">
+        <div class="robot_bg" style="bottom:-68px;"></div>
+        <h3 class="w_title"><img src="images/two-title_06.png"/>会议亮点</h3>
+        <ul class="news_list w450 mt30">
+          <li>精选的智能硬件最热门话题，针对业界上中下游热点和难点展开深邃研讨，有力助推产业的发展；</li>
+          <li>探讨智能硬件产业前沿进展，把握技术和市场的最新动态和发展趋势；</li>
+          <li>与行业顶尖专家面对面，汲取最新科研成果、收获正确解决方案。上海、深圳两站联合，将汇集国际知名企业、行业资深专家等超过500位智能硬件企业精英，
+建立业内优势人脉资源；</li>
+         
+        </ul>
+				
+       
+      </div>
+    </div>
+
+		<!--日程start-->
+    <div id="richeng" class="part1 rel" style="background:#eceff0">
+      <div class="bg_yy2"></div>
+      <div class="w1000">
+        <h3 class="w_title pt20"><img src="images/three-title_08.png"/>会议日程</h3>
+        <table class="w_table mt30" cellpadding="0" cellspacing="0" border="0">
+          <tr class="title">
+            <td width="100"  class="noborder"><strong>时间Time</strong></td>
+            <td width="480" class="noborder"><strong>演讲主题 Topic  </strong></td>
+            <td ><strong>演讲嘉宾 Speaker</strong></td>
+          </tr>
+          <tr>
+            <td>12:30-13:25</td>
+            <td>签到+领取资料袋+社交/展示</td>
+						<td></td>
+          </tr>
+					<tr>
+            <td>13:25-13:30</td>
+            <td>会议开始，欢迎致辞</td>
+						<td></td>
+          </tr>
+          
+          <tr class="title">
+            <td class="noborder"><strong>Part 1</strong></td>
+            <td colspan="2"><strong>主题：智能硬件市场发展趋势</strong></td>
+          </tr>
+					<tr>
+            <td></td>
+            <td><span style="margin:0 5px;">&bull;</span>智能硬件产业发展与应用现状<br/>
+<span style="margin:0 5px;">&bull;</span>智能家居产品的产业形势及主要问题详解<br/  
+>
+<span style="margin:0 5px;">&bull;</span>智能硬件在智能家居概念落地过程中的重要性分析<br/>
+<span style="margin:0 5px;">&bull;</span>创业潮之下智能家居产品的角色分析<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备最新研究进展与发展趋势分析<br/>
+<span style="margin:0 5px;">&bull;</span>互联网+时代 可穿戴设备如何改变生活<br/>
+<span style="margin:0 5px;">&bull;</span>检测认证如何驱动可穿戴设备的发展<br/>
+<span style="margin:0 5px;">&bull;</span>无人机和机器人市场预测分析<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件浪潮下的汽车电子趋势分析<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件技术创新与创客运动分析<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件创业中的艰难与希望<br/> 
+<span style="margin:0 5px;">&bull;</span>智能硬件的商业模式研究与理性投资</td>
+						<td></td>
+          </tr>
+					
+					 <tr class="title">
+            <td class="noborder"><strong>Part 2</strong></td>
+            <td colspan="2"><strong>主题：智能硬件创新技术及应用</strong></td>
+          </tr>
+					<tr>
+            <td></td>
+            <td>
+<span style="margin:0 5px;">&bull;</span>智能硬件产品设计（基于SoC、MCU、传感器、模组等）<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备中的元器件选型和系统设计<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备低功耗显示和电池管理<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件中的新型传感技术与解决方案<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件的几种人机交互方式优劣性分析<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备中的虚拟现实交互体验<br/>
+<span style="margin:0 5px;">&bull;</span>低功耗无线通讯技术在智能硬件中的应用<br/>
+<span style="margin:0 5px;">&bull;</span>云服务在智慧家庭产品中的重要性分析<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件中的先进制造和封装技术<br/>
+<span style="margin:0 5px;">&bull;</span>家用智能硬件的相关检测认证知识详解<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备中的健康检测如何实现<br/>
+<span style="margin:0 5px;">&bull;</span>如何为可穿戴设备定制操作系统<br/>
+<span style="margin:0 5px;">&bull;</span>家用智能硬件的信息安全重要性及解决方案<br/>
+<span style="margin:0 5px;">&bull;</span>可穿戴设备中的安全威胁及防护措施<br/>
+<span style="margin:0 5px;">&bull;</span>智能硬件切入家居应用的关键点讨论<br/>
+<span style="margin:0 5px;">&bull;</span>家庭智能产品类型构成及相关应用<br/>
+<span style="margin:0 5px;">&bull;</span>无人机中的关键技术分析</td>
+						<td></td>
+          </tr>
+					 <tr class="title">
+            <td class="noborder"><strong>Part 3</strong></td>
+            <td colspan="2"><strong>智能硬件圆桌讨论</strong></td>
+          </tr>
+					<tr>
+            <td align="center">17:00</td>
+            <td>会议结束 + 互动交流</td>
+						<td></td>
+          </tr>
+        </table>
+        <p class="pt20">注:最终议程以活动现场发布为准，详细日程将陆续更新，敬请关注。</p>
+				
+      </div>
+    </div>
+		<!--日程end-->
+		
+		<!--参会对象start-->
+		<div class="w1000 robot_bg_wrap">
+        <div class="robot_bg" style="bottom:-68px;"></div>
+        <h3 class="w_title"><img src="images/four-title_10.png">参会对象</h3>
+        <ul class="news_list w450 mt30">
+          <li>智能硬件芯片商和关键元器件商（主控芯片/传感器/无线通讯芯片/触控芯片/显示屏等）；</li>
+          <li>智能家居和可穿戴设备研发、设计、制造等企业的研发、设计等技术工程师、研发经理、产品经理、高层管理人员；</li>
+          <li>ODM/OEM厂商，智能硬件关联软件设计厂商、硬件开关终端产品分销商；</li>
+         	<li>政府相关部门、院校专家学者、国内外协会学会代表、主流媒体记者、金融机构等；</li>
+        </ul>
+       
+      </div>
+		<!--参会对象end-->
+		
+		
+    <!--参会企业 开始-->
+    <!--<div class=" margin30 qiye">
+        <div class="w1000">
+        	<h3 class="title floatleft">参<br />会<br>企<br /> 业</h3>
+            <div id="qiye_con" class="qiye_con">
+              <ul>
+              	<li>武汉市美奇斯机械设备有限公司 销售总监</li>
+              	<li>东风汽车有限公司设备制造厂 机器人智能化所 所长</li>
+              	<li>上海宏梭实业有限公司 总经理</li>
+              	<li>西安多杰机器人有限公司 市场部经理</li>
+              	<li>深圳拓普微科技开发有限公司 总经理</li>
+              	<li>固高科技（深圳）有限公司 销售经理</li>
+              	<li>江元通信 副总</li>                
+              </ul>
+              <ul>
+              	<li>上海darpa机器人公司 总经理</li>
+              	<li>西南证券武汉营业部 副总经理</li>
+              	<li>上海歆霓自动化工程技术有限公司 销售总监</li>
+              	<li>章志纲机器人俱乐部 副校长</li>
+              	<li>常州雨竹自动化科技有限公司 总经理</li>
+              	<li>深圳唯科机电一体化有限公司 总经理</li>
+              	<li>上海端力智能电控有限公司 技术总监</li>                
+              </ul>
+              <ul>
+              	<li>常熟创新焊接设备有效公司 电气部</li>
+              	<li>广州市泰立机电设备有限公司 技术与商务</li>
+              	<li>宁海县申海橡塑厂 行政部总经理</li>
+              	<li>江苏联合传动设备有限公司 市场部部长</li>
+              	<li>上海荒野数字科技有限公司 总经理</li>
+              	<li>十堰全泰机电工程有限公司 总经理</li>
+              	<li>上海维宏电子科技股份有限公司 产品经理</li>                
+              </ul>
+              <ul>
+              	<li>南京如谦自动化设备公司 总工程师</li>
+              	<li>上海山里智能科技有限公司 总经理</li>
+              	<li>昆山安特士自动化科技有限公司 总经理</li>
+              	<li>南京务本信息科技有限公司 总经理</li>
+              	<li>苏州双龙珠智能科技有限公司 CEO</li>
+              	<li>长治市潞安合力机械有限责任公司 董事长</li>
+              	<li>上海传恪国际贸易有限公司 总经理</li>                
+              </ul>
+              <ul>
+              	<li>上海新纪元机器人有限公司 CTO</li>
+              	<li>华润微电子 战略发展部总监</li>
+              	<li>福旺达机器人（扬州）有限公司 总经理</li>
+              	<li>雷尼绍（上海）贸易有限公司 产品经理</li>
+              	<li>神光新能源有限公司 副总经理</li>
+              	<li>上海子上智能装备有限公司 总经理</li>
+              	<li>合肥雄鹰自动化工程科技有限公司 副总</li>                
+              </ul>
+              <ul>
+              	<li>上海莫亿自动化设备有限公司 技术，电气经理</li>
+              	<li>上海福赛特机器人有限公司 销售工程师</li>
+              	<li>沈阳新松机器人自动化公司 设计部工程师</li>
+              	<li>深圳市欧泊机器人有限公司 总经理</li>
+              	<li>美的制冷设备有限公司（武汉工业园）设备工程师</li>
+              	<li>武汉明科智慧科技有限公司 CTO</li>
+              	<li>联合数字集团 总经理 </li>                
+              </ul>
+              <ul>
+              	<li>晋中市京家智信息技术有限责任公司 首席执行官</li>
+              	<li>上海典时精密机械有限公司 总经理</li>
+              	<li>上海蓝姆汽车焊接设备有限公司 工艺规划员</li>
+              	<li>重庆机器人有限公司 总经理助理</li>
+              	<li>江苏汇博机器人技术有限公司 区域经理</li>
+              	<li>成都万先自动化科技有限责任公司 总经理</li>
+              	<li>青岛创想机器人制造有限公司 销售经理</li>                
+              </ul>
+              <ul>
+              	<li>上海贝驰自动化设备有限公司 机械设计工程师</li>
+              	<li>北人机器人系统（苏州）有限公司 市场部经理</li>
+              	<li>杭州优宁电子有限公司 总经理</li>
+              	<li>上海兴控机电设备有限公司 经理</li>
+              	<li>江西北创实业发展有限公司 总经理</li>
+              	<li>安川首钢机器人有限公司上海分公司 市场经理</li>
+              	<li>上海翟浩机电设备有限公司 采购经理</li>                
+              </ul>
+              <ul>
+              	<li>上海思伟软件有限公司 副总经理</li>
+              	<li>国巨智能科技公司 总经理</li>
+              	<li>上海拔引电子科技有限公司 总经理</li>
+              	<li>多维世界数字集团 副总监</li>
+              	<li>武汉汉迪机器人科技有限公司 机器人控制工程师</li>
+              	<li>安徽安庆市星胜机电设备销售有限公司 总经理</li>
+              	<li>&nbsp;</li>                
+              </ul>
+            </div>
+            
+            <div id="qiye_prev" class="prev"></div>
+            <div id="qiye_next" class="next"></div>
+        </div>
+    </div>-->
+    
+    <!--参会企业 结束-->
+    
+    
+    
+
+
+    <div class="part1">
+      <div class="w1000">
+        <h3 class="w_title"><img src="images/five-title_12.png" />会务联络</h3>
+        <ul class="contact_list pt30">
+          <li>
+            <strong>会务咨询及报名</strong>
+            <p>
+                蒋宁静 市场项目主任<br/>
+Tel：+86-755-83279360-843<br/>
+Fax: +86-755-83279008<br/>
+Email: jiangningjing@ofweek.com
+            </p>
+          </li>
+          <li>
+            <strong>会议赞助：</strong>
+            <p style="display:inline-block; *display:inline; zoom:1">
+             刘尹艳 销售经理<br/>
+Tel：+86-755-83279017 - 817<br/>
+Fax：+86-755-83279008<br/> 
+Email：liuyinyan@ofweek.com
+            </p>
+						 <p style="display:inline-block;*display:inline; zoom:1">
+             姚玲芳 销售经理<br/>
+Tel：+86-755-83279017 - 848<br/>
+Fax：+86-755-83279008<br/> 
+Email：yaolingfang@ofweek.com
+            </p>
+          </li>
+          <li style="padding-right: 0;">
+            <strong>媒体合作</strong>
+            <p>
+             朱自群 媒体经理<br/>
+Tel: +86-755-83279360-844<br/>
+Fax: +86-755-83279008<br/>
+Email: zhuziqun@netwaymedia.com
+
+              </p>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+    <!-- <div class="part1 white_bg mx">
+      <div class="w1000">
+        <h3 class="fl w_title">主办单位：</h3>
+        <div class="fl mx_list">
+          
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="part1 black">
+      <div class="w1000 wh">
+        <div class="logo_list">
+          <h3 class="logo_name fl">主办<br />单位</h3>
+          <ul class="fl">
+            <li><a href="http://www.ofweek.com/" target="_blank"><img src="images/logo_ofw.png" /></a></li>
+            
+          </ul>
+        </div>
+        <div class="logo_list">
+          <h3 class="logo_name fl">承办<br />单位</h3>
+          <ul class="fl">
+            <li><a href="http://smarthome.ofweek.com/" target="_blank"><img src="images/zhijia_03.jpg" /></a></li>
+						<li><a href="http://wearable.ofweek.com/" target="_blank"><img src="images/twotwo_03.jpg" /></a></li>
+          </ul>
+        </div>
+        <div class="logo_list">
+          <h3 class="logo_name fl">协办<br />单位</h3>
+          <ul class="fl">
+            <li><a href="http://www.nepconchina.com/" target="_blank"><img src="images/ncp_03.jpg" /></a></li>
+            
+          </ul>
+        </div>
+        <!--<div class="logo_list">
+          <h3 class="logo_name fl">支持<br />单位</h3>
+          <ul class="fl" style="width:934px;">
+            <li><a href="http://security.ofweek.com/" target="_blank"><img src="images/zhi01_11.png" /></a></li>
+            <li><a href="http://iot.ofweek.com/" target="_blank"><img src="images/zhi02_11.png" /></a></li>
+            <li><a href="http://ee.ofweek.com/" target="_blank"><img src="images/zhi03_11.png" /></a></li>
+            <li><a href="http://display.ofweek.com/" target="_blank"><img src="images/zhi04_11.png" /></a></li>
+            <li><a href="http://robot.ofweek.com/" target="_blank"><img src="images/zhi05_11.png" /></a></li>
+          </ul>
+        </div>-->
+      </div>
+    </div>
+    
+</div>
+<!-- main end -->
+
+
+<!-- footer -->
+<div id="g-footer" class="g-footer">
+  <div class="g-wrap">
+    <div class="g-footer-nav">
+      <a target="_blank" href="http://www.ofweek.com/about.shtml" rel="nofollow">关于我们</a> -
+      <a target="_blank" href="http://www.ofweek.com/abouten/company.html" rel="nofollow">About OFweek</a> -
+      <a target="_blank" href="http://www.ofweek.com/user/ArtRequest.do" rel="nofollow">征 稿</a> -
+      <a target="_blank" href="http://www.ofweek.com/ad.shtml" rel="nofollow">广告咨询</a> -
+      <a target="_blank" href="http://www.ofweek.com/help.shtml" rel="nofollow">帮助信息</a> -
+      <a target="_blank" href="http://www.ofweek.com/contact.shtml" rel="nofollow">联系我们</a> -
+      <a target="_blank" href="http://www.ofweek.com/service.shtml" rel="nofollow">会员服务</a> -
+      <a target="_blank" href="http://www.ofweek.com/sitemap.shtml">网站导航</a> -
+      <a target="_blank" href="http://global.ofweek.com">国际站</a>-
+      <a target="_blank" href="http://m.ofweek.com"  rel="nofollow">手机OFweek网</a>
+    </div>
+    <div class="g-footer-links">
+      我们的网站：<a target="_blank" href="http://lights.ofweek.com" rel="nofollow">半导体照明网</a> | 
+	  <a rel="nofollow" href="http://solar.ofweek.com" target="_blank">太阳能光伏网</a> | 
+	  <a target="_blank" href="http://laser.ofweek.com" rel="nofollow">激光网</a> | 
+	  <a rel="nofollow" href="http://3dprint.ofweek.com" target="_blank">3D打印网</a> | 
+	  <a rel="nofollow" href="http://power.ofweek.com" target="_blank">电力网</a> | 
+	  <a rel="nofollow" href="http://smartgrids.ofweek.com" target="_blank">智能电网</a> | 
+	  <a rel="nofollow" href="http://ecep.ofweek.com" target="_blank">节能环保网</a> | 
+	  <a target="_blank" href="http://ee.ofweek.com" rel="nofollow">电子工程网</a> | 
+	  <a rel="nofollow" href="http://dianyuan.ofweek.com" target="_blank">电源网</a> | 
+	  <a rel="nofollow" href="http://fiber.ofweek.com" target="_blank">光通讯网</a> | 
+	  <a target="_blank" href="http://gongkong.ofweek.com" rel="nofollow">工控网</a> | 
+	  <a target="_blank" href="http://lighting.ofweek.com" rel="nofollow">照明网</a> | 
+	  <a target="_blank" href="http://windpower.ofweek.com" rel="nofollow">风电网</a> <br>
+      <a target="_blank" href="http://instrument.ofweek.com" rel="nofollow">仪器仪表网</a> | 
+	  <a target="_blank" href="http://display.ofweek.com" rel="nofollow">显示网</a> | 
+	  <a target="_blank" href="http://optics.ofweek.com" rel="nofollow">光学网</a> | 
+	  <a target="_blank" href="http://tele.ofweek.com" rel="nofollow">通信网</a> | 
+	  <a target="_blank" href="http://robot.ofweek.com" rel="nofollow">机器人网</a>  | 
+	  <a target="_blank" href="http://libattery.ofweek.com" rel="nofollow">锂电网</a> | 
+	  <a target="_blank" href="http://iot.ofweek.com" rel="nofollow">物联网</a> | 
+	  <a target="_blank" href="http://smarthome.ofweek.com" rel="nofollow">智能家居</a>  | 
+	  <a target="_blank" href="http://wearable.ofweek.com" rel="nofollow">可穿戴设备网</a>  | 
+	   <a target="_blank" href="http://auto.ofweek.com" rel="nofollow">汽车网</a>  | 
+	  <a target="_blank" href="http://nev.ofweek.com" rel="nofollow">新能源汽车网</a>  | 
+	  <a target="_blank" href="http://medical.ofweek.com" rel="nofollow">医疗网</a>  | 
+	  <a target="_blank" href="http://security.ofweek.com" rel="nofollow">安防网</a>  |  
+         <a target="_blank" href="http://sensor.ofweek.com" rel="nofollow">传感器网</a>  | 
+	  <a rel="nofollow" href="http://hr.ofweek.com" target="_blank">人才网</a> | 
+	  <a href="http://b2b.ofweek.com/" target="_blank">商贸网</a> | 
+	  <a href="http://en.ofweek.com/" target="_blank">外贸网</a>  |
+	  <a href="http://www.isweek.cn" target="_blank" rel="nofollow">工采网</a>  |
+	  <a href="http://peixun.ofweek.com/" target="_blank">培训网</a>
+      <br>
+      客服热线：+86-755-83279360 83279361 83279363 83279365 客服传真：+86-755-83279008
+      <br>
+      业务联系：+86-755-83279360
+      <br>
+      Copyright &copy; 2015, All Rights Reserved.
+      <br>
+      中文版权所有－OFweek高科技行业门户.网站所有图片、文字未经许可不得拷贝、复制。
+    </div>
+    <div class="g-footer-record">
+      <img style="vertical-align:bottom;" src="http://images.ofweek.com/ofweek/images/110.gif" />
+      <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备06087881号-1</a>
+    </div>
+  </div>
+</div>
+
+
+	<script type='text/javascript'>
+		<!--//<![CDATA[
+			var str_cookie=getCookie('www_ofweekmember');
+			if(str_cookie!=null){
+				document.getElementById("loginshow").style.display="none";
+				var str=str_cookie.split("NPofweek");
+				var userid=str[0];
+				document.getElementById("logininfo").style.display="";
+				var isemail=str[1];
+				if(isemail==1)
+					document.getElementById("logininfo").innerHTML += " 欢迎您："+userid+" ！";
+				else
+					document.getElementById("logininfo").innerHTML += " 欢迎您："+userid+" ！";
+			}
+		//]]>-->
+	 </script>
+  <!-- 统计代码 -->
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6295404-2']);
+    _gaq.push(['_setDomainName', '.ofweek.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? ' https://ssl' : ' http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <!-- ofweek.com Baidu tongji analytics -->
+  <script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F28a416fcfc17063eb9c4f9bb1a1f5cda' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+<!-- /footer -->
+
+
+<!--左下角浮窗-->
+<div id="fuchuang" class="fuchuang">
+    <a class="fuchuang_zc" href="zhuce.html" target="_blank"></a>
+    <a class="fuchuang_wb" href="http://weibo.com/ofweeksmarthome" target="_blank"></a>
+    <a class="fuchuang_qq" href="http://weibo.com/ofweekwearable" target="_blank"></a>
+    <div id="share" class="fuchuang_share">
+      <div class="jiathis_style" style="position:absolute; z-index:999; overflow:auto; bottom:0; right:119px;"><div class="jiadiv_01"><div style="width:100%;background:#F2F2F2;border-bottom:1px solid #E5E5E5;line-height:200%;padding-left:5px;font-size:12px"><table width="100%"><tbody><tr class="jt_sharetitle"><td align="left" style="text-align:left;line-height:25px;font-size:14px;font-weight:bold;color:#000000;">分享到...</td><td align="right" style="text-align:right;"></td></tr></tbody></table></div><div class="jiadiv_02" style="width:100%;" id="jiathis_sers"><a href="javascript:;" onclick="jiathis_sendto('copy');return false;" class="jiatitle"><span class="jtico jtico_copy">复制网址</span></a><a href="javascript:;" onclick="jiathis_sendto('email');return false;" class="jiatitle"><span class="jtico jtico_email">邮件</span></a><a href="javascript:;" onclick="jiathis_sendto('qzone');return false;" class="jiatitle"><span class="jtico jtico_qzone">QQ空间</span></a><a href="javascript:;" onclick="jiathis_sendto('tsina');return false;" class="jiatitle"><span class="jtico jtico_tsina">新浪微博</span></a><a href="javascript:;" onclick="jiathis_sendto('tqq');return false;" class="jiatitle"><span class="jtico jtico_tqq">腾讯微博</span></a><a href="javascript:;" onclick="jiathis_sendto('weixin');return false;" class="jiatitle"><span class="jtico jtico_weixin">微信</span></a><a href="javascript:;" onclick="jiathis_sendto('renren');return false;" class="jiatitle"><span class="jtico jtico_renren">人人网</span></a><a href="javascript:;" onclick="jiathis_sendto('yixin');return false;" class="jiatitle"><span class="jtico jtico_yixin">易信</span></a><a href="javascript:;" onclick="jiathis_sendto('t163');return false;" class="jiatitle"><span class="jtico jtico_t163">网易微博</span></a><a href="javascript:;" onclick="jiathis_sendto('tsohu');return false;" class="jiatitle"><span class="jtico jtico_tsohu">搜狐微博</span></a><a href="javascript:;" onclick="jiathis_sendto('cqq');return false;" class="jiatitle"><span class="jtico jtico_cqq">QQ好友</span></a><a href="javascript:;" onclick="jiathis_sendto('kaixin001');return false;" class="jiatitle"><span class="jtico jtico_kaixin001">开心网</span></a><a href="javascript:;" onclick="jiathis_sendto('feixin');return false;" class="jiatitle"><span class="jtico jtico_feixin">飞信</span></a><a href="javascript:;" onclick="jiathis_sendto('douban');return false;" class="jiatitle"><span class="jtico jtico_douban">豆瓣</span></a><a href="javascript:;" onclick="jiathis_sendto('ishare');return false;" class="jiatitle"><span class="jtico jtico_ishare">一键分享</span></a><a href="javascript:;" onclick="$CKE.center(this);return false;" class="jiatitle"><span class="jtico jtico_jiathis">查看更多(122)</span></a><div style="clear:both"></div></div><div class="ckepopBottom" style="width:100%;"><div style="float:right;font-size:11px;margin:0 5px 0 0;"><img src="http://v3.jiathis.com/code/images/img_012.gif" align="absmiddle" border="0"><a href="http://www.jiathis.com/index2" style="color:#333333;padding:0 3px;" class="link_01" target="_blank">JiaThis</a></div><div style="clear:both"></div></div></div></div>
+        <script src="http://v3.jiathis.com/code/jia.js?uid=1399517271954872" charset="utf-8"></script>
+        <script type="text/javascript">
+          //var jiathis_config = {title:"OFweek 2015中国机器人产业论坛火热报名中，等你来参会!"}
+        </script>
+    </div>
+    <a class="fuchuang_traffic" href="zhuce.html" target="_blank"></a>
+</div>
+
+
+<!--右下角微信-->
+<div class="xufu_weixin">
+  <h3>扫一扫即可关注</h3>
+  <h4><img src="images/weixin-zhi.jpg"/></h4>
+  <p>OFweek<br/>
+智能家居网微信</p>
+  <h4><img src="images/weixin-ke.jpg" /></h4>
+  <p>OFweek<br/>
+可穿戴设备网微信</p>
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript">
+  var scrollPic_01 = new ScrollPic();
+  scrollPic_01.scrollContId   = "qiye_con"; //内容容器ID
+  scrollPic_01.arrLeftId      = "qiye_prev";//左箭头ID
+  scrollPic_01.arrRightId     = "qiye_next"; //右箭头ID
+  scrollPic_01.frameWidth     = 910;//显示框宽度
+  scrollPic_01.pageWidth      = 910; //翻页宽度  
+  scrollPic_01.speed          = 10; //移动速度(单位毫秒，越小越快)
+  scrollPic_01.space          = 100; //每次移动像素(单位px，越大越快)
+  scrollPic_01.autoPlay       = false; //自动播放
+  scrollPic_01.autoPlayTime   = 3; //自动播放间隔时间(秒)  
+  scrollPic_01.initialize(); //初始化
+  
+</script>
+
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js" ></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+</body>
+</html>
